@@ -1,8 +1,6 @@
 import React from 'react';
 import './CTA.css';
 import phonetxtImg from '../../assets/phonetxtImg.png';
-import appstoreIcon from '../../assets/appstore-icon.svg';
-import googleplayIcon from '../../assets/googleplay-icon.svg';
 
 const CTA = () => {
   return (
@@ -14,10 +12,10 @@ const CTA = () => {
         <h1>Join 5+ million people who save and invest with us</h1>
         <div className="cta-buttons">
           <p>
-            <img src={appstoreIcon} alt="AppStore Icon" /> Get on iPhone
+            <img src="/assets/appstore-icon.svg" alt="AppStore Icon" /> Get on iPhone
           </p>
           <p>
-            <img src={googleplayIcon} alt="GooglePlay Store Icon" /> Get on Android
+            <img src="/assets/googleplay-icon.svg" alt="GooglePlay Store Icon" /> Get on Android
           </p>
         </div>
       </div>

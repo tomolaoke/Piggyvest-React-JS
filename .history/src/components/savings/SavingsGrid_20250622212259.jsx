@@ -83,15 +83,15 @@ const SavingsGrid = () => {
       <div className="grid-item item-5">
         <div className="item-content">
           <span className="item-text">
-            <h1>Dollar Savings</h1>
-            <p>Save and grow your money in dollars and earn up to 7% per annum.</p>
+            <h1>Flex Dollar</h1>
+            <p>Save and grow your money in foreign currencies such as Dollars.</p>
             <h5>Flex Dollar</h5>
           </span>
           <div className="item-overlay">
-            <img src={iphone14} alt="Dollar Savings Image" />
+            <img src={iphone12} alt="Flex Dollar Image" />
             <div className="overlay-text">
-              <h1>Dollar Savings</h1>
-              <p>Save and grow your money in dollars and earn up to 7% per annum.</p>
+              <h1>Flex Dollar</h1>
+              <p>Save and grow your money in foreign currencies such as Dollars.</p>
               <h5>Flex Dollar</h5>
             </div>
           </div>
