@@ -1,0 +1,85 @@
+.hero-report {
+  background-color: #0089fb;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  width: 80%;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.hero-report:hover {
+  background-color: black;
+}
+
+.hero-report svg {
+  background-color: #0089fb;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-right: 8px;
+}
+
+.hero-report:hover svg {
+  background-color: black;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.hero-text {
+  margin-top: 10%;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  width: 80%;
+  margin: 5% 0;
+}
+
+.hero-text p {
+  color: rgb(61, 79, 96);
+  font-size: 20px;
+  line-height: 32px;
+  width: 70%;
+  margin: 4% 0;
+}
+
+.hero-text button {
+  background-color: #132231;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hero-text button img {
+  background-color: #132231;
+  border-radius: 10px;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .hero-report {
+    font-size: 14px;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-text h1 {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .hero-text p {
+    width: 100%;
+    font-size: 14px;
+  }
+}

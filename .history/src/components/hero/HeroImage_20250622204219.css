@@ -1,0 +1,38 @@
+.hero-images {
+  position: relative;
+  width: 120%;
+  height: 90%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.main-image {
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.overlay-image {
+  position: absolute;
+  width: 35%;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  border-radius: 5px;
+}
+
+.side-left.position-1 { left: -70px; top: 20%; }
+.side-left.position-2 { left: -70px; top: 50%; }
+.side-left.position-3 { left: -70px; top: 80%; }
+.side-right.position-4 { right: 60px; top: 15%; }
+.side-right.position-5 { right: 60px; top: 60%; }
+.side-right.position-6 { right: 60px; top: 95%; }
+
+@media (max-width: 768px) {
+  .hero-images {
+    margin-left: 13%;
+    width: 100%;
+    margin-top: 15%;
+  }
+}
