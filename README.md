@@ -16,42 +16,6 @@ This project is a React-based clone of the PiggyVest landing page, built with Vi
 │   └── vite.svg
 ├── src/                            # Main source code
 │   ├── assets/                     # All images and icons used in the app
-│   │   ├── appstore-icon.svg
-│   │   ├── arrow-right-icon.png
-│   │   ├── cio.svg
-│   │   ├── cnbc.png
-│   │   ├── compliance-378fe121550ceac55d0eeb8c5edac2e7.avif
-│   │   ├── dropdown-arrow.svg
-│   │   ├── facebook.svg
-│   │   ├── fastcomp.svg
-│   │   ├── Frame 1020.png
-│   │   ├── Frame 18.png
-│   │   ├── Frame 78.png
-│   │   ├── Frame 79.png
-│   │   ├── Frame 80.png
-│   │   ├── Frame 82.png
-│   │   ├── googleplay-icon.svg
-│   │   ├── greylogo.svg
-│   │   ├── instagram.svg
-│   │   ├── iPhone 14 - 1.png
-│   │   ├── iPhone 14.avif
-│   │   ├── iphone12.avif
-│   │   ├── iphoneInvest.avif
-│   │   ├── iphonw.avif
-│   │   ├── PB 18 Small.png
-│   │   ├── pexels-ketut-subiyanto-4350099.avif
-│   │   ├── phonetxtImg.png
-│   │   ├── piggvestlogo.svg
-│   │   ├── pymnts.svg
-│   │   ├── react.svg
-│   │   ├── securitylock.svg
-│   │   ├── SL 22 Small.png
-│   │   ├── techcabal.png
-│   │   ├── techcrunch.png
-│   │   ├── titkok.svg
-│   │   ├── twitter.svg
-│   │   ├── whiteAppleLogo.svg
-│   │   └── youtube.svg
 │   ├── components/                  # All modular React components (each with its own folder)
 │   │   ├── cta/
 │   │   │   ├── CTA.jsx
